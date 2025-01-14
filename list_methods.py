@@ -31,7 +31,7 @@ my_list.sort() # modifies the list; goes smallest to largest numbers from left t
 print(my_list)
 
 # can I store the sorted list in another variable?
-new_list = [4,6,4,2,9,0, -5]
+new_list = [4,6,4,2,9,0,-5]
 sorted_list = sorted(new_list)
 print(sorted_list) # prints smallest to largest numbers from left to right
 print(new_list) # prints original list, no modifications
@@ -60,4 +60,8 @@ print(random_nums)
 # insert item at specific location
 random_nums.insert(1,4) # goes to the 1st index, shifts everything from the right of that,
 # over to the right, then fills the space (1st index) with the new number, 4 in this case
+print(random_nums)
+
+# reverse
+random_nums.reverse()
 print(random_nums)

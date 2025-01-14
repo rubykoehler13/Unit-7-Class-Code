@@ -5,7 +5,6 @@ Description: List creation and manipulation and traversal
 """
 
 # list creation - use [ ]
-
 list_of_numbers = [1,2,3,4,5,6,8]
 print(list_of_numbers)
 
